@@ -7,7 +7,8 @@ from .models import TestModel
 
 
 class TestCachedSerializer(CachedSerializerMixin, TestSerializer):
-    pass
+    class Meta:
+        fields = ('id', 'name')
 
 
 class GetCacheKeyTestCase(unittest.TestCase):
