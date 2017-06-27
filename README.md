@@ -60,7 +60,7 @@ cache_registry.register(CommentSerializer)
 
 # Configuration
 
-To the cache successfully work you must configure the Django CACHES setting. We recomend that you take a look on Django cache docs here [https://docs.djangoproject.com/en/1.9/topics/cache/](https://docs.djangoproject.com/en/1.9/topics/cache/#setting-up-the-cache)
+To the cache successfully work you must configure the Django CACHES setting. We recomend that you take a look on Django cache docs here [https://docs.djangoproject.com/en/1.10/topics/cache/](https://docs.djangoproject.com/en/1.10/topics/cache/#setting-up-the-cache)
 
 
 ## Using cache backend different of the default
