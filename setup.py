@@ -3,7 +3,7 @@ from setuptools import setup
 import rest_framework_cache
 
 
-github_url = "https://github.com/ervilis/django-rest-framework-cache/"
+github_url = "https://github.com/Archideus/django-rest-framework-cache/"
 
 setup(
     name="rest-framework-cache",
