@@ -1,6 +1,6 @@
 # django-rest-framework-cache
 
-[![Build Status](https://travis-ci.org/ervilis/django-rest-framework-cache.svg?branch=master)](https://travis-ci.org/ervilis/django-rest-framework-cache)
+[![Build Status](https://travis-ci.org/Archideus/django-rest-framework-cache.svg?branch=master)](https://travis-ci.org/Archideus/django-rest-framework-cache)
 
 DRF Cache provides easy to use, powerful and flexible cache framework for django-rest-framwork apps.
 
@@ -59,7 +59,7 @@ cache_registry.register(CommentSerializer)
 
 # Configuration
 
-To the cache successfully work you must configure the Django CACHES setting. We recomend that you take a look on Django cache docs here [https://docs.djangoproject.com/en/1.9/topics/cache/](https://docs.djangoproject.com/en/1.9/topics/cache/#setting-up-the-cache)
+To the cache successfully work you must configure the Django CACHES setting. We recomend that you take a look on Django cache docs here [https://docs.djangoproject.com/en/1.10/topics/cache/](https://docs.djangoproject.com/en/1.10/topics/cache/#setting-up-the-cache)
 
 
 ## Using cache backend different of the default
