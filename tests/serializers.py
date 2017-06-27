@@ -7,4 +7,4 @@ class TestSerializer(ModelSerializer):
 
     class Meta:
         model = TestModel
-        fields = '__all__'
+        fields = ('name',)
